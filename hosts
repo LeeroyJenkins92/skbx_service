@@ -1,0 +1,6 @@
+[nginx-servers]
+terraform1-front ansible_host=51.250.65.106 ansible_user=debain ansible_ssh_private_key=~/.ssh/id_rsa
+terraform2-front ansible_host=51.250.87.158 ansible_user=debain ansible_ssh_private_key=~/.ssh/id_rsa
+
+[flask-app-servers]
+terraform1-back ansible_host=51.250.93.245 ansible_user=debain ansible_ssh_private_key=~/.ssh/id_rsa
